@@ -3,6 +3,8 @@ name = "nexint"
 version = "0.1.0"
 edition = "2024"
 description = "NexInt AI Agent Runtime Kernel"
+authors = ["LIghtJUNction <lightjunction.me@gmail.com>"]
+license = "GPL-3.0-or-later"
 
 
 [dependencies]
