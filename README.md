@@ -47,9 +47,3 @@ This project uses a kernel-style development flow:
 
 * Subsystem Isolation: Each subdirectory in nexint-subsystems/ is an independent Git repository.
 * Workspace Sync: Use the provided init.sh or direnv hooks to keep submodules in sync with the upstream.
-
-📄 License
-NexInt is distributed under the terms of both the MIT License and the Apache License (Version 2.0).
-------------------------------
-Next Step
-Would you like to refine the project description in the README to include a specific technical roadmap, or shall we dive into the nexint-mem Token Paging implementation?
