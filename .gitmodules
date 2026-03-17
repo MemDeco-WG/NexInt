@@ -1,0 +1,12 @@
+[submodule "nexint-subsystems/nexint-mem"]
+	path = nexint-subsystems/nexint-mem
+	url = https://github.com
+[submodule "nexint-subsystems/nexint-vfs"]
+	path = nexint-subsystems/nexint-vfs
+	url = https://github.com
+[submodule "nexint-subsystems/nexint-bus"]
+	path = nexint-subsystems/nexint-bus
+	url = https://github.com
+[submodule "nexint-subsystems/nexint-mod"]
+	path = nexint-subsystems/nexint-mod
+	url = https://github.com
