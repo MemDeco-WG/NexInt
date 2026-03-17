@@ -6,6 +6,10 @@ description = "NexInt AI Agent Runtime Kernel"
 
 
 [dependencies]
+anyhow.workspace = true
+serde.workspace = true
+tokio.workspace = true
+tracing.workspace = true
 
 [workspace]
 resolver = "2"
@@ -18,5 +22,8 @@ members = [
     "nexint-subsystems/nexint-bus",  # 消息总线仓库
 ]
 
-
-
+[workspace.dependencies]
+serde = { version = "1.0", features = ["derive"] }
+tokio = { version = "1.0", features = ["full"] }
+tracing = "0.1"
+anyhow = "1.0"
