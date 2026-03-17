@@ -1,0 +1,22 @@
+[package]
+name = "nexint"
+version = "0.1.0"
+edition = "2024"
+description = "NexInt AI Agent Runtime Kernel"
+
+
+[dependencies]
+
+[workspace]
+resolver = "2"
+
+members = [
+    ".",                            # 核心内核 (nexint)
+    "nexint-subsystems/nexint-mem",  # 内存子系统仓库
+    "nexint-subsystems/nexint-vfs",  # 虚拟文件系统仓库
+    "nexint-subsystems/nexint-mod",  # 模块加载器仓库
+    "nexint-subsystems/nexint-bus",  # 消息总线仓库
+]
+
+
+
